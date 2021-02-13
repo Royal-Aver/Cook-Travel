@@ -2,28 +2,45 @@
 	background-image: url(../img/hero/hero-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 0 33px 281px;
 }
 .header {
-}
-.logo {
-}
-.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0 0;
+	margin-bottom: 140px;
 }
 .menu__list {
+	display: flex;
+	justify-content: space-between;
 }
-.menu__item {
+.menu__item + .menu__item {
+	margin-left: 25px;
 }
 .menu__link {
+	font-size: 18px;
+	color: #0b141d;
 }
-.networks {
-}
-.networks__item {
-}
-.hero__content {
+.networks__item + .networks__item {
+	margin-left: 15px;
 }
 .hero__title {
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 98px;
+	text-shadow: 2px 3px 4px #fdd418;
+	margin-bottom: 15px;
 }
 .hero__text {
+	font-size: 30px;
+	line-height: 37px;
+	margin-bottom: 60px;
 }
 .hero__btn {
+	font-size: 20px;
+	line-height: 24px;
+	padding: 18px 71px;
+	background: #F8D930;
+	border-radius: 3px;
 }

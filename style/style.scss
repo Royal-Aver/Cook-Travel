@@ -3,7 +3,7 @@
 :focus, active{outline: none;}
 a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
-html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;}
+html,body{height:100%;width:100%;font-family:'Montserrat',sans-serif;font-weight: 400;font-size:100%;line-height:22px;font-size:16px;-ms-text-size-adjust:100%;color: #0B141D;}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
@@ -14,3 +14,4 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
 
 @import "_hero";
+@import "_about";
