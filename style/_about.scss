@@ -1,5 +1,3 @@
-.about {
-}
 .about__inner {
 	background-image: url(../img/about/photo.png);
 	background-repeat: no-repeat;
@@ -15,9 +13,6 @@
 	display: flex;
 	justify-content: space-between;
 	margin-left: 400px;
-}
-.about__items {
-	// width: 50%;
 }
 .items-item {
 	margin-bottom: 110px;
@@ -56,10 +51,8 @@
 	padding-right: 10px;
 }
 .about__description-adv1 {
-
 	margin-bottom: 60px;
 }
 .about__description-adv2 {
-
 	padding-bottom: 169px;
 }
